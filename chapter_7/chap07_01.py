@@ -1,6 +1,6 @@
 # Databricks notebook source
 # Listing 7.1: Reading from a source SQL Server table over JDBC into a Spark DataFrame
-# Requires the SQL Server JDBC driver on the compute and a "migration" secret scope holding src_user and src_password.
+# Databricks Runtime already includes the SQL Server JDBC driver. Create a "migration" secret scope holding src_user and src_password first.
 
 # Configure the source connection
 jdbc_url = (
